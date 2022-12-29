@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "2.0.0",
+  "description": "",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist",
+    "watch": " tsc --outDir dist --watch"
+  },
+  "author": "Rocknatt",
+  "license": "ISC",
+  "dependencies": {
+    "components": "^2.0.0"
+    
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    
+  },
+  "publishConfig": {
+    
+  }
+}

@@ -16,5 +16,15 @@
         ]
       }
     }
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist"]
+    },
+    "watch": {
+      "dependsOn": ["^watch"],
+      "outputs": ["dist"]
+    }
   }
 }
